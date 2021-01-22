@@ -151,6 +151,7 @@ p {
     border-radius: 7px;
     width: 75%;
     margin: auto;
+    justify-content: center;
 }
 
 .img-background {
@@ -159,9 +160,11 @@ p {
     width: 280px;
     border-radius: 7px;
     margin: 60px auto;
+    
 
 /***************/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: center;
 }
 
 .img2 {
