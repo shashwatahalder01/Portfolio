@@ -48,12 +48,19 @@ p {
 
   .header-container1 {
     background-color: #141c3a;
+    
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
     padding: 20px;
     text-align: right;
     
-    margin: 0 40px 0 40px;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
+    /*margin: 0 40px;*/
+
+       /***/
+       margin: 0 5%;
+
+
+
     
     
   }
@@ -73,7 +80,7 @@ p {
     padding: 20px;
     text-align: right;
     
-    margin: 0 40px 0 40px;
+    margin: 0 40px ;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
 
@@ -89,7 +96,11 @@ p {
     background-color: white;
     border-radius: 7px;
     text-align: center;
-    margin: 40px;
+    /* margin: 40px; */
+
+
+    /***/
+    margin: 5%;
 
     
 }
@@ -176,10 +187,12 @@ p {
 /***************/
     margin-top: 150px;
     margin-bottom: 150px;
+    
 }
 
 .do1-container {
     display: flex;
+   
     
 
 }
