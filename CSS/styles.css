@@ -1,0 +1,444 @@
+
+
+
+/********************************     html element    ***********************************/
+
+
+body {
+    background-color: #7510F7;
+    font-family: 'Rubik', sans-serif;
+    line-height: 2;
+    margin: 0;
+
+  /*  background: linear-gradient( #7510F7 50%, #141c3a 50%); */
+  
+}
+
+h1 {
+    
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #7510F7;
+    margin-bottom: 50px;
+
+}
+
+h3 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    color: #7510F7;
+    
+
+}
+p {
+    font-size: 1.15rem;
+}
+
+
+
+/********************************    header    ***********************************/
+
+
+.top1 {
+    color: white;
+    text-decoration: none;
+    margin: 10px 30px;
+  }
+  
+
+  .header-container1 {
+    background-color: #141c3a;
+    padding: 20px;
+    text-align: right;
+    
+    margin: 0 40px 0 40px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    
+    
+  }
+
+/********************************   hidden header    ***********************************/
+
+
+.top {
+    color: white;
+    text-decoration: none;
+    margin: 10px 30px;
+  }
+  
+
+  .header-container {
+    background-color: #141c3a;
+    padding: 20px;
+    text-align: right;
+    
+    margin: 0 40px 0 40px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+   /***************/ 
+    display: none;
+  }
+
+
+
+/********************************     Body    ***********************************/
+
+.body-container {
+    background-color: white;
+    border-radius: 7px;
+    text-align: center;
+    margin: 40px;
+
+    
+}
+
+/********************************     HI    ***********************************/
+
+
+
+.hi-container {
+    text-align: center;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    
+}
+
+.font1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    
+}
+
+.font2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 0;
+    padding-bottom: 30px;
+}
+
+.img1 {
+    width: 80%;
+    height: 80%;
+    padding-bottom: 20px;
+}
+
+/********************************  Intro  pic  ************************************/
+
+
+.intro-container {
+    padding: 20px;
+
+/***************/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 7px;
+    width: 75%;
+    margin: auto;
+}
+
+.img-background {
+    background-color: #141c3a;
+    height: 300px;
+    width: 280px;
+    border-radius: 7px;
+    margin: 60px auto;
+
+/***************/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img2 {
+    height: 300px;
+    width: 250px;
+    border-radius: 7px;
+    margin-top: 20px;
+
+/***************/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+
+
+/************************************what can i do******************************************/
+.do-container {
+    padding: 20px;
+
+
+
+/***************/
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.do1-container {
+    display: flex;
+    
+
+}
+
+.design-container {
+    flex: 1;
+    width: 50%;
+    padding: 40px;
+
+
+
+    /***************/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 7px;
+    margin-right: 30px;
+}
+
+.development-container {
+    flex: 1;
+    width: 50%; 
+    padding: 40px;
+
+
+/***************/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+
+/******************************what can i do - image ***********************************/
+
+.img3 {
+    width: 50px;
+    height: 50px;
+
+
+
+    padding: 10px;
+}
+
+.img4 {
+    width: 50px;
+    height: 50px;
+
+
+
+    padding: 10px;
+
+}
+
+
+/*******************************     skills   ***********************************/
+
+.skill-container {
+    padding: 20px;
+    margin-top: 75px;
+    
+
+    
+}
+
+.skill1-container {
+    line-height: 1;
+    text-align: left;
+
+
+/***************/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 7px;
+    width: 75%;
+    padding: 20px;
+    margin: auto;
+
+}
+
+.skill-name {
+    margin-bottom: 5px;
+    margin-left: 25%;
+}
+
+
+.skill-bar-background {
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    width: 50%;
+    margin: auto;
+    height: 5px;
+}
+
+
+.skill-bar-forground {
+    background-color: #7510F7;
+    border-radius: 4px;
+    height: 5px;
+
+}
+
+.skill-percentage {
+   visibility: hidden;
+  
+}
+
+
+.html {
+    width: 95%;
+}
+
+.css {
+    width: 90%;
+}
+
+.js {
+    width: 85%;
+}
+
+.react {
+    width: 65%;
+}
+
+.bootstrap {
+    width: 80%;
+}
+
+.jquery {
+    width: 60%;
+}
+
+.nodejs {
+    width: 50%;
+}
+
+.python {
+    width: 80%;
+}
+
+.django {
+    width: 60%;
+}
+
+.mysql {
+    width: 70%;
+}
+
+.mongodb {
+    width: 55%;
+}
+
+.git {
+    width: 85%;
+}
+
+/**********************************   contact   ***********************************/
+
+
+.contact-container {
+    padding: 10px;
+}
+.getintouch-container {
+    background-color:#141c3a;
+    padding: 20px;
+    border-radius: 7px;
+    color: white;
+    width: 75%;
+    margin:100px auto 10px;
+
+/***************/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+
+.btn {
+    height: 3rem;
+    width: 12rem;
+    background-color: #141c3a;
+    border-color: #7510f7;
+    border-radius: 7px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+
+
+    margin:20px auto;
+
+}
+
+.btn:hover {
+    background-color:#7510f7;
+    border-color:  #141c3a;
+}
+
+
+
+  /**************************     footer     ******************************/
+
+  .bottom-container1 {
+    background-color:white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    text-align: center;
+    margin: 100px 40px 0 40px;
+    padding-top: 20px;
+
+/*  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+        
+}
+
+.bottom-link1 {
+    text-decoration: none;
+    margin: 10px 30px;  
+    
+  }
+
+.copyright1 {
+    font-size: 0.65rem;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+
+    color: #7510F7;
+  }
+
+  copywite-name1 {
+
+    color: #7510F7;
+}
+
+  /****************************** hidden    footer  ***********************************/
+
+.bottom-container {
+    background-color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    text-align: center;
+    margin: 10px 40px 0 40px;
+    padding-top: 20px;
+
+/***************/
+    display: none;
+
+}
+
+.bottom-link {
+    text-decoration: none;
+    margin: 10px 30px;
+    
+  }
+
+.copyright {
+    font-size: 0.65rem;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+
+    color: #7510F7;
+  }
+
+  copywite-name {
+
+      color: #7510F7;
+  }
