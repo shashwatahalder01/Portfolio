@@ -180,7 +180,7 @@ p {
 
 /************************************what can i do******************************************/
 .do-container {
-    padding: 20px;
+    
 
 
 
@@ -192,13 +192,15 @@ p {
 
 .do1-container {
     display: flex;
-   
+    flex-wrap:  wrap;
+
+   margin: 5%;
     
 
 }
 
 .design-container {
-    flex: 1;
+    flex: 1 ;
     width: 50%;
     padding: 40px;
 
@@ -207,19 +209,22 @@ p {
     /***************/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 7px;
-    margin-right: 30px;
+   /* margin-right: 20px; */
+   margin: 20px;
+ 
 }
 
 .development-container {
-    flex: 1;
-    width: 50%; 
+    flex: 1 ;
+    width: 50%;
     padding: 40px;
-
 
 /***************/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 7px;
-    margin-left: 10px;
+  /*  margin-left: 20px; */
+  margin: 20px;
+
 }
 
 
@@ -405,7 +410,7 @@ p {
 
 .bottom-link1 {
     text-decoration: none;
-    margin: 10px 30px;  
+    margin: 10px 2%;  
     
   }
 
