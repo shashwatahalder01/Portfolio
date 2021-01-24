@@ -1,6 +1,3 @@
-
-
-
 /********************************     html element    ***********************************/
 
 
@@ -10,12 +7,14 @@ body {
     line-height: 2;
     margin: 0;
 
-  /*  background: linear-gradient( #7510F7 50%, #141c3a 50%); */
-  
+    /*  background: linear-gradient( #7510F7 50%, #141c3a 50%); */
+
+    padding: 5%;
+
 }
 
 h1 {
-    
+
     font-weight: 500;
     font-size: 2.5rem;
     color: #7510F7;
@@ -27,9 +26,10 @@ h3 {
     font-family: 'Rubik', sans-serif;
     font-weight: 600;
     color: #7510F7;
-    
+
 
 }
+
 p {
     font-size: 1.15rem;
 }
@@ -43,27 +43,27 @@ p {
     color: white;
     text-decoration: none;
     margin: 10px 30px;
-  }
-  
+}
 
-  .header-container1 {
+
+.header-container1 {
     background-color: #141c3a;
-    
+
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
     padding: 20px;
     text-align: right;
-    
+
     /*margin: 0 40px;*/
 
-       /***/
-       margin: 0 5%;
+    /***/
+    margin: 0 5%;
 
 
 
-    
-    
-  }
+
+
+}
 
 /********************************   hidden header    ***********************************/
 
@@ -72,21 +72,21 @@ p {
     color: white;
     text-decoration: none;
     margin: 10px 30px;
-  }
-  
+}
 
-  .header-container {
+
+.header-container {
     background-color: #141c3a;
     padding: 20px;
     text-align: right;
-    
-    margin: 0 40px ;
+
+    margin: 0 40px;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
 
-   /***************/ 
+    /***************/
     display: none;
-  }
+}
 
 
 
@@ -100,10 +100,18 @@ p {
 
 
     /***/
-    margin: 5%;
+    margin:  0 auto ;
 
-    
+    max-width: 1462px;
+    min-width: 362px;
+   
+
+
 }
+
+
+
+
 
 /********************************     HI    ***********************************/
 
@@ -113,7 +121,7 @@ p {
     text-align: center;
     margin-bottom: 150px;
     margin-top: 50px;
-    
+
 }
 
 .font1 {
@@ -123,7 +131,7 @@ p {
     margin-bottom: 0;
     padding-top: 100px;
     padding-bottom: 10px;
-    
+
 }
 
 .font2 {
@@ -146,7 +154,7 @@ p {
 .intro-container {
     padding: 20px;
 
-/***************/
+    /***************/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 7px;
     width: 75%;
@@ -161,7 +169,7 @@ p {
     border-radius: 7px;
     margin: 60px auto;
 
-/***************/
+    /***************/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -171,62 +179,62 @@ p {
     border-radius: 7px;
     margin-top: 20px;
 
-/***************/
+    /***************/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
 @media only screen and (max-width: 600px) {
-    
+
     .img-background {
         background-color: #141c3a;
         height: 300px;
         width: 250px;
         border-radius: 7px;
         margin: 60px auto;
-    
-    /***************/
+
+        /***************/
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
-    
+
     .img2 {
         height: 300px;
         width: 220px;
         border-radius: 7px;
         margin-top: 20px;
-    
-    /***************/
+
+        /***************/
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
+
     }
 
 
-  }
+}
 
 
 /************************************what can i do******************************************/
 .do-container {
-    
 
 
 
-/***************/
+
+    /***************/
     margin-top: 150px;
     margin-bottom: 150px;
-    
+
 }
 
 .do1-container {
     display: flex;
-    flex-wrap:  wrap;
+    flex-wrap: wrap;
 
-   margin: 5%;
-    
+    margin: 5%;
+
 
 }
 
 .design-container {
-    flex: 1 ;
+    flex: 1;
     width: 50%;
     padding: 40px;
 
@@ -235,21 +243,21 @@ p {
     /***************/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 7px;
-   /* margin-right: 20px; */
-   margin: 20px;
- 
+    /* margin-right: 20px; */
+    margin: 20px;
+
 }
 
 .development-container {
-    flex: 1 ;
+    flex: 1;
     width: 50%;
     padding: 40px;
 
-/***************/
+    /***************/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 7px;
-  /*  margin-left: 20px; */
-  margin: 20px;
+    /*  margin-left: 20px; */
+    margin: 20px;
 
 }
 
@@ -281,9 +289,9 @@ p {
 .skill-container {
     padding: 20px;
     margin-top: 75px;
-    
 
-    
+
+
 }
 
 .skill1-container {
@@ -291,7 +299,7 @@ p {
     text-align: left;
 
 
-/***************/
+    /***************/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 7px;
     width: 75%;
@@ -323,8 +331,8 @@ p {
 }
 
 .skill-percentage {
-   visibility: hidden;
-  
+    visibility: hidden;
+
 }
 
 
@@ -382,17 +390,18 @@ p {
 .contact-container {
     padding: 10px;
 }
+
 .getintouch-container {
-    background-color:#141c3a;
+    background-color: #141c3a;
     padding: 20px;
     border-radius: 7px;
     color: white;
     width: 75%;
-    margin:100px auto 10px;
+    margin: 100px auto 10px;
 
-/***************/
+    /***************/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
+
 }
 
 
@@ -409,36 +418,36 @@ p {
     font-weight: 500;
 
 
-    margin:20px auto;
+    margin: 20px auto;
 
 }
 
 .btn:hover {
-    background-color:#7510f7;
-    border-color:  #141c3a;
+    background-color: #7510f7;
+    border-color: #141c3a;
 }
 
 
 
-  /**************************     footer     ******************************/
+/**************************     footer     ******************************/
 
-  .bottom-container1 {
-    background-color:white;
+.bottom-container1 {
+    background-color: white;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     text-align: center;
     margin: 100px 40px 0 40px;
     padding-top: 20px;
 
-/*  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-        
+    /*  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
 }
 
 .bottom-link1 {
     text-decoration: none;
-    margin: 10px 2%;  
-    
-  }
+    margin: 10px 2%;
+
+}
 
 .copyright1 {
     font-size: 0.65rem;
@@ -446,14 +455,14 @@ p {
     padding-bottom: 10px;
 
     color: #7510F7;
-  }
+}
 
-  copywite-name1 {
+copywite-name1 {
 
     color: #7510F7;
 }
 
-  /****************************** hidden    footer  ***********************************/
+/****************************** hidden    footer  ***********************************/
 
 .bottom-container {
     background-color: white;
@@ -463,7 +472,7 @@ p {
     margin: 10px 40px 0 40px;
     padding-top: 20px;
 
-/***************/
+    /***************/
     display: none;
 
 }
@@ -471,8 +480,8 @@ p {
 .bottom-link {
     text-decoration: none;
     margin: 10px 30px;
-    
-  }
+
+}
 
 .copyright {
     font-size: 0.65rem;
@@ -480,9 +489,9 @@ p {
     padding-bottom: 10px;
 
     color: #7510F7;
-  }
+}
 
-  copywite-name {
+copywite-name {
 
-      color: #7510F7;
-  }
+    color: #7510F7;
+}
